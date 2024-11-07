@@ -1,0 +1,112 @@
+{% load blog_tags %}
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% block title %}My Blog - Your Daily Insights{% endblock %}</title>
+    
+    <!-- Primary Stylesheets -->
+    <link href="{% static 'css/blog.css' %}" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            color: #333;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        #content {
+            width: 70%;
+            margin: 20px auto;
+            padding: 20px;
+            background: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2, h3 {
+            color: #0077cc;
+            font-weight: 700;
+        }
+        a {
+            color: #0077cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        #sidebar {
+            width: 25%;
+            position: fixed;
+            right: 0;
+            top: 20px;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            height: calc(100vh - 40px); /* Full height of the page */
+            overflow-y: auto;
+        }
+        #sidebar h2, #sidebar h3 {
+            margin-top: 0;
+        }
+        #sidebar p {
+            font-size: 0.9em;
+            line-height: 1.6;
+            color: #666;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .latest-posts, .most-commented {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .latest-posts li, .most-commented li {
+            margin: 10px 0;
+        }
+        /* Add margin to content to prevent it being covered by sidebar */
+        #content {
+            margin-right: 25%; /* Adjust this based on sidebar width */
+        }
+    </style>
+</head>
+<body>
+
+<div id="content">
+    {% block content %}
+    {% endblock %}
+</div>
+
+<div id="sidebar">
+    <h2>Welcome to My Blog</h2>
+    <p>Thank you for visiting! I’ve written {% total_posts %} posts so far. Feel free to browse, comment, and share.</p>
+    
+    <div class="search-section">
+        <a href="{% url 'blog:post_search' %}">🔍 Search the blog</a>
+    </div>
+
+    
+
+    <hr>
+
+    <h3>Latest Posts</h3>
+    <ul class="latest-posts">
+        {% show_latest_posts 3 %}
+    </ul>
+
+    <hr>
+
+    <h3>Most Commented Posts</h3>
+    <ul class="most-commented">
+        {% get_most_commented_posts as most_commented_posts %}
+        {% for post in most_commented_posts %}
+            <li><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></li>
+        {% endfor %}
+    </ul>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+{% extends 'blog/base.html' %}
+{% load blog_tags %}
+{% block title %}{{ post.title }}{% endblock %}
+
+{% block content %}
+    <div class="post-container" style="max-width: 800px; margin: 0 auto; padding: 20px; background-color: #fff; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); margin-top: 40px;">
+        <!-- Post Title -->
+        <h1 class="post-title" style="font-size: 2.5em; margin-bottom: 10px; color: #333; font-weight: bold;">{{ post.title }}</h1>
+        
+        <!-- Post Meta Info -->
+        <p class="post-meta" style="font-size: 0.9em; color: #777; margin-bottom: 20px;">
+            Published on <strong>{{ post.publish|date:"F j, Y" }}</strong> by <strong>{{ post.author }}</strong>
+        </p>
+
+        <!-- Post Content -->
+        <div class="post-body" style="font-size: 1.1em; line-height: 1.8; color: #555;">
+            {{ post.body|markdown }}
+        </div>
+
+        <!-- Share Button -->
+        <p class="share-post" style="margin-top: 20px;">
+            <a href="{% url 'blog:post_share' post.id %}" class="btn btn-share" style="background-color: #007bff; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block;">Share this post</a>
+        </p>
+        
+        <!-- Similar Posts Section -->
+        <section class="similar-posts" style="margin-top: 40px; border-top: 2px solid #f1f1f1; padding-top: 20px;">
+            <h2 style="font-size: 1.6em; color: #333; margin-bottom: 15px;">Similar Posts</h2>
+            {% for post in similar_posts %}
+                <div class="similar-post-item" style="margin: 10px 0;">
+                    <a href="{{ post.get_absolute_url }}" class="similar-post-link" style="color: #007bff; text-decoration: none; font-weight: bold;">{{ post.title }}</a>
+                </div>
+            {% empty %}
+                <p>No similar posts available at the moment.</p>
+            {% endfor %}
+        </section>
+
+        <!-- Comments Section -->
+        <section class="comments-section" style="margin-top: 40px; border-top: 2px solid #f1f1f1; padding-top: 20px;">
+            <h2 class="comments-title" style="font-size: 1.5em; color: #333;">
+                {% if num_of_comments == 0 %}
+                    <em>Be the first to comment</em>
+                {% elif num_of_comments == 1 %}
+                    {{ num_of_comments }} Comment
+                {% else %}
+                    {{ num_of_comments }} Comments
+                {% endif %}
+            </h2>
+
+            {% for comment in comments %}
+                <div class="comment" style="background-color: #f7f7f7; padding: 15px; border-radius: 5px; margin-bottom: 20px;">
+                    <p class="comment-info" style="font-size: 1em; color: #555; margin-bottom: 10px;">
+                        Comment {{ forloop.counter }} by <strong>{{ comment.name }}</strong>
+                    </p>
+                </div>
+            {% endfor %}
+
+            <!-- Comment Form -->
+            {% include 'blog/post/include/comment_from.html' %}
+        </section>
+    </div>
+{% endblock %}

@@ -1,0 +1,1386 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-08-26T22:10:00.020Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "web development with django",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-08-26T23:29:27.138Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "The Elon story",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-08-26T23:29:48.862Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "tri cy cle",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-08-27T07:21:56.080Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "education in africa",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-08-27T07:22:08.630Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "tri cy cle",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-08-27T07:22:53.491Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "University movement",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-08-27T07:23:21.744Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "food is good",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-08-27T07:23:46.986Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "nice one",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-08-27T13:04:42.935Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Comment by fredy blay on web development with django",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-08-27T15:17:04.424Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Comment by fredy blay on web development with django",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-08-27T15:17:04.461Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Comment by Emmanuel Kwame Aidoo on web development with django",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-08-27T15:17:18.353Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Comment by Philip on web development with django",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-08-27T16:35:48.637Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "web development with django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2024-08-27T17:05:00.189Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "tri cy cle",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2024-08-27T17:14:20.514Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "The Elon story",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2024-08-27T22:01:28.071Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "food is good",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2024-08-27T22:01:40.344Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "nice one",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2024-08-27T22:01:56.745Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "University movement",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2024-08-27T22:33:01.206Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "The pride of barbados",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2024-08-27T22:53:29.042Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "The new movement is here",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2024-08-27T23:39:19.695Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "The pride of barbados",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2024-08-27T23:47:43.882Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "markdown google",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2024-08-27T23:49:05.933Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "markdown google",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2024-08-28T00:10:11.490Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "localhost:8000",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 7,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 7,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 7,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 7,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 8,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 8,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 8,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 8,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 9,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 9,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 9,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 9,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 10,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 10,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 10,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 10,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 11,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 11,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 11,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 11,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$D6ylj6z4VSshIBFNdRnc5C$UToNSDsKM91gt6+XdJWZF89Vd7LZYhMbs2LHne7/8Ws=",
+    "last_login": "2024-08-27T13:03:59.310Z",
+    "is_superuser": true,
+    "username": "ato",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-08-26T18:45:01.142Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "blog",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "mp34i5pzbnr5b9mr58seiz63izzrw286",
+  "fields": {
+    "session_data": ".eJxVjDkOwjAQAP_iGlneJfFBSc8brLV3jQPIkXJUiL8jSymgnRnNW0Xatxr3VZY4sbooUKdflig_pXXBD2r3Wee5bcuUdE_0YVd9m1le16P9G1Raa99CQjIGLBcHMhZBgyYF8lkGl4fAI6OIkQIEHIDMaBkZnUtn9GS9-nwB5bY35g:1siqVM:gUg2pVV18DxkiqyKOWoqTDv73_oMSMmhr5QyCNRiZSU",
+    "expire_date": "2024-09-10T07:20:40.193Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "msl3nupybxzj92gbhqvd31b2pfwuzl0c",
+  "fields": {
+    "session_data": ".eJxVjDkOwjAQAP_iGlneJfFBSc8brLV3jQPIkXJUiL8jSymgnRnNW0Xatxr3VZY4sbooUKdflig_pXXBD2r3Wee5bcuUdE_0YVd9m1le16P9G1Raa99CQjIGLBcHMhZBgyYF8lkGl4fAI6OIkQIEHIDMaBkZnUtn9GS9-nwB5bY35g:1sivrb:qexukZILtUalpHCIfyBifLi2Gd_4nqt8VqH6Xq4c1wE",
+    "expire_date": "2024-09-10T13:03:59.320Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "oqyt1fwydm4hla1gls8h41nto2ffwiym",
+  "fields": {
+    "session_data": ".eJxVjDkOwjAQAP_iGlneJfFBSc8brLV3jQPIkXJUiL8jSymgnRnNW0Xatxr3VZY4sbooUKdflig_pXXBD2r3Wee5bcuUdE_0YVd9m1le16P9G1Raa99CQjIGLBcHMhZBgyYF8lkGl4fAI6OIkQIEHIDMaBkZnUtn9GS9-nwB5bY35g:1sij8J:sec5REsdkXg1DXAUdMxN9Vytc5PPs1dAdjmfTocYPUU",
+    "expire_date": "2024-09-09T23:28:23.429Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "x1wc2aymapkrb81hbm5s3bin7vntfabo",
+  "fields": {
+    "session_data": ".eJxVjDkOwjAQAP_iGlneJfFBSc8brLV3jQPIkXJUiL8jSymgnRnNW0Xatxr3VZY4sbooUKdflig_pXXBD2r3Wee5bcuUdE_0YVd9m1le16P9G1Raa99CQjIGLBcHMhZBgyYF8lkGl4fAI6OIkQIEHIDMaBkZnUtn9GS9-nwB5bY35g:1sif2i:Sbe34P2vSvdd5YgtGMliLKJAND_q04chVSrPJrNvN-o",
+    "expire_date": "2024-09-09T19:06:20.221Z"
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "localhost:8000",
+    "name": "localhost:8000"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "django",
+    "slug": "django"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "music",
+    "slug": "music"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "food",
+    "slug": "food"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "jazz",
+    "slug": "jazz"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 5,
+  "fields": {
+    "name": "meat",
+    "slug": "meat"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 6,
+  "fields": {
+    "name": "policies",
+    "slug": "policies"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 7,
+  "fields": {
+    "name": "education",
+    "slug": "education"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 1,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 2,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 5,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 6,
+    "content_type": 7,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 7,
+  "fields": {
+    "tag": 7,
+    "content_type": 7,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 8,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 9,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 10,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 6
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 11,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 12,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 13,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 14,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 15,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 16,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 8
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 17,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 8
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 18,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 8
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 19,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 8
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 20,
+  "fields": {
+    "tag": 5,
+    "content_type": 7,
+    "object_id": 8
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 21,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 9
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 22,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 9
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 23,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 9
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 24,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 9
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 25,
+  "fields": {
+    "tag": 5,
+    "content_type": 7,
+    "object_id": 9
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 26,
+  "fields": {
+    "tag": 1,
+    "content_type": 7,
+    "object_id": 10
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 27,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 10
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "web development with django",
+    "slug": "web-development-with-django",
+    "body": "The first manager declared in a model becomes the default manager. You can use the Meta attribute\r\ndefault_manager_name to specify a different default manager. If no manager is defined in the model,\r\nDjango automatically creates the objects",
+    "status": "PB",
+    "publish": "2024-08-26T22:09:53Z",
+    "created": "2024-08-26T22:10:00.018Z",
+    "updated": "2024-08-27T16:35:48.590Z",
+    "author": 1
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 2,
+  "fields": {
+    "title": "The Elon story",
+    "slug": "the-elon-story",
+    "body": "South African magazine published the code to a video game a twelve-year-\r\nold Musk had designed. Called Blastar, the science-fiction-inspired space\r\ngame required 167 lines of instructions to run. This was back in the day when\r\nearly computer users were required to type out commands to make their\r\nmachines do much of anything. I",
+    "status": "PB",
+    "publish": "2024-08-26T23:29:20Z",
+    "created": "2024-08-26T23:29:27.136Z",
+    "updated": "2024-08-27T17:14:20.476Z",
+    "author": 1
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "title": "tri cy cle",
+    "slug": "tri-cy-cle",
+    "body": "outh African magazine published the code to a video game a twelve-year-\r\nold Musk had designed. Called Blastar, the science-fiction-inspired space\r\ngame required 167 lines of instructions to run. This was back in the day when\r\nearly computer users were required to type out commands to make their\r\nmachines do much of anything. I",
+    "status": "PB",
+    "publish": "2024-08-26T23:29:45Z",
+    "created": "2024-08-26T23:29:48.860Z",
+    "updated": "2024-08-27T17:05:00.135Z",
+    "author": 1
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "title": "education in africa",
+    "slug": "education-in-africa",
+    "body": "South African magazine published the code to a video game a twelve-year-\r\nold Musk had designed. Called Blastar, the science-fiction-inspired space\r\ngame required 167 lines of instructions to run. This was back in the day when\r\nearly computer users were required to type out commands to make their\r\nmachines do much of anything. In that context,",
+    "status": "PB",
+    "publish": "2024-08-27T07:21:28Z",
+    "created": "2024-08-27T07:21:56.067Z",
+    "updated": "2024-08-27T07:21:56.067Z",
+    "author": 1
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 5,
+  "fields": {
+    "title": "University movement",
+    "slug": "university-movement",
+    "body": "game required 167 lines of instructions to run. This was back in the day when South African magazine published the code to a video game a twelve-year-\r\nold Musk had designed. Called Blastar, the science-fiction-inspired space\r\nearly computer users were required to type out commands to make their\r\nmachines do much of anything. In that context,",
+    "status": "PB",
+    "publish": "2024-08-27T07:22:11Z",
+    "created": "2024-08-27T07:22:53.484Z",
+    "updated": "2024-08-27T22:01:56.730Z",
+    "author": 1
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 6,
+  "fields": {
+    "title": "food is good",
+    "slug": "food-is-good",
+    "body": "South African magazine published the code to a video game a twelve-year-\r\nold Musk had designed. Called Blastar, the science-fiction-inspired spaceSouth African magazine published the code to a video game a twelve-year-\r\nold Musk had designed. Called Blastar, the science-fiction-inspired space",
+    "status": "PB",
+    "publish": "2024-08-27T07:22:57Z",
+    "created": "2024-08-27T07:23:21.739Z",
+    "updated": "2024-08-27T22:01:28.062Z",
+    "author": 1
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 7,
+  "fields": {
+    "title": "nice one",
+    "slug": "nice-one",
+    "body": "South African magazine published the code to a video game a twelve-year-\r\nold Musk had designed. Called Blastar, the science-fiction-inspired spaceSouth African magazine published the code to a video game a twelve-year-\r\nold Musk had designed. Called Blastar, the science-fiction-inspired space",
+    "status": "PB",
+    "publish": "2024-08-27T07:23:26Z",
+    "created": "2024-08-27T07:23:46.984Z",
+    "updated": "2024-08-27T22:01:40.331Z",
+    "author": 1
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 8,
+  "fields": {
+    "title": "The pride of barbados",
+    "slug": "the-pride-of-barbados",
+    "body": "total_poststotal_poststotal _poststotal_poststotal_poststotal _poststotal_poststotal_poststotal _poststotal_poststotal_posts",
+    "status": "PB",
+    "publish": "2024-08-27T22:32:51Z",
+    "created": "2024-08-27T22:33:01.186Z",
+    "updated": "2024-08-27T23:39:19.688Z",
+    "author": 1
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 9,
+  "fields": {
+    "title": "The new movement is here",
+    "slug": "the-new-movement-is-here",
+    "body": "ew-movement-is-hereew-movement-is-hereew-movement-is-hereew-movement-is-hereew-movement-is-hereew-movement-is-hereew-movement-is-here",
+    "status": "PB",
+    "publish": "2024-08-27T22:53:19Z",
+    "created": "2024-08-27T22:53:29.024Z",
+    "updated": "2024-08-27T22:53:29.024Z",
+    "author": 1
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 10,
+  "fields": {
+    "title": "markdown google",
+    "slug": "markdown-google",
+    "body": "This is a post formatted with markdown\r\n\r\n----------------------------------------------------------------\r\n\r\n*this is emphasized* and  **this is more emphasized**\r\n\r\nHere is a list:\r\n\r\n* one\r\n* two\r\n* three\r\nAnd a \r\n[link to google website] (https://www.google.com/).",
+    "status": "PB",
+    "publish": "2024-08-27T23:42:58Z",
+    "created": "2024-08-27T23:47:43.870Z",
+    "updated": "2024-08-27T23:49:05.925Z",
+    "author": 1
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 4,
+  "fields": {
+    "post": 1,
+    "name": "Emmanuel Kwame Aidoo",
+    "email": "phevab1@gmail.com",
+    "body": "h",
+    "created": "2024-08-27T15:22:31.546Z",
+    "updated": "2024-08-27T15:22:31.546Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 5,
+  "fields": {
+    "post": 1,
+    "name": "Emmanuel Kwame Aidoo",
+    "email": "phevab1@gmail.com",
+    "body": "h",
+    "created": "2024-08-27T15:24:19.395Z",
+    "updated": "2024-08-27T15:24:19.395Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 6,
+  "fields": {
+    "post": 1,
+    "name": "nat",
+    "email": "bopizza1@gmail.com",
+    "body": "ok",
+    "created": "2024-08-27T15:24:36.492Z",
+    "updated": "2024-08-27T15:24:36.492Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 7,
+  "fields": {
+    "post": 2,
+    "name": "yam",
+    "email": "bopizza1@gmail.com",
+    "body": "kki",
+    "created": "2024-08-27T15:27:45.893Z",
+    "updated": "2024-08-27T15:27:45.893Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 8,
+  "fields": {
+    "post": 2,
+    "name": "Philip",
+    "email": "bopizza1@gmail.com",
+    "body": "j",
+    "created": "2024-08-27T15:28:36.870Z",
+    "updated": "2024-08-27T15:28:36.870Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 9,
+  "fields": {
+    "post": 1,
+    "name": "Philip",
+    "email": "bopizza1@gmail.com",
+    "body": "k",
+    "created": "2024-08-27T15:30:25.937Z",
+    "updated": "2024-08-27T15:30:25.937Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 10,
+  "fields": {
+    "post": 2,
+    "name": "juice",
+    "email": "bopizza1@gmail.com",
+    "body": "dsfd",
+    "created": "2024-08-27T15:46:39.555Z",
+    "updated": "2024-08-27T15:46:39.555Z",
+    "active": true
+  }
+}
+]

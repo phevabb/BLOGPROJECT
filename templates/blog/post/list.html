@@ -1,0 +1,50 @@
+{% extends 'blog/base.html' %}
+{% load blog_tags %}
+
+{% block title %}My Blog{% endblock %}
+
+{% block content %}
+    <section class="blog-header">
+        <h1>Welcome to My Blog</h1>
+        {% if tag %}
+            <h2>Posts tagged with <strong>"{{ tag.name }}"</strong></h2>
+        {% else %}
+            <p>Browse through the latest posts on various topics!</p>
+        {% endif %}
+    </section>
+
+    <section class="blog-posts">
+        {% for post in posts %}
+            <article class="blog-post-card">
+                <header>
+                    <h2 class="post-title">
+                        <a href="{{ post.get_absolute_url }}" class="post-link">{{ post.title }}</a>
+                    </h2>
+                    <p class="post-meta">
+                        Published on {{ post.publish|date:"F j, Y" }} by <strong>{{ post.author }}</strong>
+                    </p>
+                </header>
+
+                <section class="post-tags">
+                    <p class="tags">
+                        <span>Tags: </span>
+                        {% for tag in post.tags.all %}
+                            <a href="{% url 'blog:post_list_by_tag' tag.slug %}" class="tag-link">{{ tag.name }}</a>
+                            {% if not forloop.last %}, {% endif %}
+                        {% endfor %}
+                    </p>
+                </section>
+
+                <section class="post-body">
+                    <p>{{ post.body|markdown|truncatewords:30|linebreaks }}</p>
+                </section>
+
+                <footer>
+                    <a href="{{ post.get_absolute_url }}" class="read-more-link">Read more...</a>
+                </footer>
+            </article>
+        {% endfor %}
+    </section>
+
+    {% include 'pagination.html' with page=posts %}
+{% endblock %}
